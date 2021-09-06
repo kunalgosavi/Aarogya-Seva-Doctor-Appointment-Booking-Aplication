@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.Aarogya_seva">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.Aarogya_seva.flashScreen">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name="com.example.Aarogya_seva.DoctorHome"
+            android:parentActivityName="com.example.Aarogya_seva.DoctorLogin"/>
+        <activity android:name="com.example.Aarogya_seva.DoctorLogin"
+            android:parentActivityName="com.example.Aarogya_seva.StartActivity"/>
+        <activity android:name="com.example.Aarogya_seva.AddAppointment"
+            android:parentActivityName="com.example.Aarogya_seva.PatientHome"/>
+        <activity android:name="com.example.Aarogya_seva.add_doc"
+            android:parentActivityName="com.example.Aarogya_seva.AdminHome"/>
+
+        <activity android:name="com.example.Aarogya_seva.AdminHome"
+            android:parentActivityName="com.example.Aarogya_seva.AdminLogin"/>
+        <activity android:name="com.example.Aarogya_seva.AdminLogin"
+            android:parentActivityName="com.example.Aarogya_seva.StartActivity"/>
+        <activity android:name="com.example.Aarogya_seva.StartActivity"/>
+        <activity android:name="com.example.Aarogya_seva.PatientHome"
+            android:parentActivityName="com.example.Aarogya_seva.MainActivity"/>
+        <activity android:name="com.example.Aarogya_seva.RegisterActivity"
+            android:parentActivityName="com.example.Aarogya_seva.MainActivity"/>
+        <activity android:name="com.example.Aarogya_seva.MainActivity"
+            android:parentActivityName="com.example.Aarogya_seva.StartActivity"/>
+    </application>
+
+</manifest>
+

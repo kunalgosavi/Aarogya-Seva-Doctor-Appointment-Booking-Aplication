@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/login_back">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="75dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="143dp"
+                    android:layout_height="35dp"
+                    android:paddingLeft="10dp"
+                    android:text="Name"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edittext_appUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textCapWords" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="143dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="0dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/Category"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_appCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="143dp"
+                    android:layout_height="35dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/doctor"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_appDoctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="143dp"
+                    android:layout_height="35dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/date"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textview_appDate"
+                    android:layout_width="143dp"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp" />
+
+            </LinearLayout>
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="143dp"
+                    android:layout_height="35dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/time"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textview_apptime"
+                    android:layout_width="143dp"
+                    android:layout_height="40dp"
+                    android:hint="@string/Select_time"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="60dp">
+
+                <Button
+                    android:id="@+id/button_t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#ffffff"
+                    android:text="10:00-10:30am" />
+
+                <Button
+                    android:id="@+id/button_t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#ffffff"
+                    android:text="10:30-11:00am" />
+
+                <Button
+                    android:id="@+id/button_t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#ffffff"
+                    android:text="11:00-11:30am" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp">
+
+                <Button
+                    android:id="@+id/button_t4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#ffffff"
+                    android:text="@string/t4" />
+
+                <Button
+                    android:id="@+id/button_t5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#ffffff"
+                    android:text="@string/t5" />
+
+                <Button
+                    android:id="@+id/button_t6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#ffffff"
+                    android:text="@string/t6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+                <Button
+                    android:id="@+id/button_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="#ffffff"
+                    android:text="@string/add" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

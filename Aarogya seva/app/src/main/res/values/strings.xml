@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Aarogya Seva</string>
+    <string name="logo">logo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="Login">Login</string>
+    <string name="not_Registered">not registered?</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile No.</string>
+    <string name="con_password">Confirm Password</string>
+    <string name="Register">Register</string>
+    <string name="already_Registered">Already Registered?</string>
+    <string name="Admin">ADMIN</string>
+    <string name="Patient">PATIENT</string>
+    <string name="Doctor">DOCTOR</string>
+    <string name="add_doctor">ADD DOCTOR</string>
+    <string name="View_Doctor">View Doctor</string>
+    <string name="View_Patient">View Patient</string>
+    <string name="view_appointment">View Appointment</string>
+    <string name="doctor_id">Doctor ID</string>
+    <string name="Doctor_Id">Doctor ID</string>
+    <string name="doc_name">Name</string>
+    <string name="doc_address">Address</string>
+    <string name="doc_mobile_no">Mobile No</string>
+    <string name="doc_email">Email</string>
+    <string name="category">Category</string>
+    <string name="Submit">Submit</string>
+    <string-array name="doc_category">
+        <item>Bone</item>
+        <item>Skin</item>
+        <item>Child</item>
+        <item>Dentist</item>
+        <item>Gynecologist</item>
+    </string-array>
+    <string name="Cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="clinic_address">Clinic Address</string>
+    <string name="add_appointment">ADD APPIONTMENT</string>
+    <string name="Username">Username</string>
+    <string name="appID">Appointment ID</string>
+    <string name="doctor">Doctor</string>
+    <string name="Category">Category</string>
+    <string name="date">Date</string>
+    <string name="t1">10:00-10:30am</string>
+    <string name="t2">10:30-11:00am</string>
+    <string name="t3">11:30-12:00pm</string>
+    <string name="t4">05:00-05:30pm</string>
+    <string name="t5">05:30-06:00pm</string>
+    <string name="t6">06:00-06:30pm</string>
+    <string name="add">ADD</string>
+    <string name="time">Time</string>
+    <string name="Select_time">Select time slot</string>
+    <string name="doctor4u">Doctor4u</string>
+    <string name="add_app">Add Appointment</string>
+
+</resources>

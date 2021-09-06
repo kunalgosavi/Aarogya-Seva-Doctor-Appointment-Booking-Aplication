@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "854652883162",
+    "firebase_url": "https://doctor4u-ebead.firebaseio.com",
+    "project_id": "doctor4u-ebead",
+    "storage_bucket": "doctor4u-ebead.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854652883162:android:0bdeb6b65f4a21fa9355e3",
+        "android_client_info": {
+          "package_name": "com.example.Aarogya_seva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854652883162-agtpua8caofvjq28qiv3qd8i9q81ced6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Aarogya_seva",
+            "certificate_hash": "539bd1dc81c702080c4c4d4e6bf699ec14d8a206"
+          }
+        },
+        {
+          "client_id": "854652883162-fiq079ikeb3ekife2sun0arir7682liv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVUOtttLCb_yohj8oe1lUZscgm_fARtIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854652883162-fiq079ikeb3ekife2sun0arir7682liv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
